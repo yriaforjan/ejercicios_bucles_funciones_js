@@ -9,7 +9,6 @@ const artists = [
 ];
   
 // Añade tu código de bucle aquí
-
 for (const artist of artists) {
     let primerasInfluencias = [];
     let ultimaInlfuencia = "";
@@ -24,5 +23,5 @@ for (const artist of artists) {
 
 //CON UN BUCLE SIMPLE:
 /* for (const artist of artists) {
-    console.log (`El artista ${artist.name} tiene como influencias: ${artist.influences[0]}, ${artist.influences[1]} y ${artist.influences[2]}.`)
+    console.log (`El artista ${artist.name} tiene como influencias: ${artist.influences}.`)
 } */
