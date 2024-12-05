@@ -24,4 +24,13 @@ function averageMovieDuration(movies) {
     return totalDuration / movies.length;
 }
 
-/* console.log(averageMovieDuration(movies));   */
+// ARROW FUNCTION:
+/* const averageMovieDuration = (movies) => {
+    let totalDuration = 0;
+    for (const movie of movies) {
+        totalDuration += movie.duration;
+    }
+    return totalDuration / movies.length;
+} */
+
+console.log(averageMovieDuration(movies));  

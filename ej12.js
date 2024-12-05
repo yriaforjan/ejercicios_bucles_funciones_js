@@ -31,4 +31,21 @@ function findMutantByPower(mutants, power) {
     }
 }
 
-/* findMutantByPower(mutants, "magnetism"); */
+// ARROW FUNCTION:
+/* const findMutantByPower = (mutants, power) => {
+    const powers = [];
+    for (const mutant of mutants) {
+        powers.push(mutant.power);
+    }
+    if (powers.includes(power)) {
+        for (const mutant of mutants) {
+            if (mutant.power == power) {
+                console.log (`Encontrado: ${mutant.name}`);
+            }
+        }
+    } else {
+        console.log (`No se ha encontrado ningún mutante con ese poder.`);
+    }
+} */
+
+findMutantByPower(mutants, "magnetism");

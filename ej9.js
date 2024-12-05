@@ -22,6 +22,13 @@ function findOldestXMen(xMen) {
     return xMen[0];
 }
 
-/* console.log(findOldestXMen(xMen)); */
+console.log(findOldestXMen(xMen));
   
-  
+// ARROW FUNCTION:
+/* const findOldestXMen = (xMen) => {
+    for (const mutant of xMen) {
+        xMen.sort((a,b) => a.year - b.year);
+    }
+    return xMen[0];
+}
+console.log(findOldestXMen(xMen)); */

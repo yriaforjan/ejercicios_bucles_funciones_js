@@ -28,4 +28,18 @@ function calculateActorsAges(actors) {
     return actorsAndAges;
 }
 
-/* console.log(calculateActorsAges(actors)); */
+// ARROW FUNCTION:
+/* const calculateActorsAges = (actors) => {
+    let actorAge = 0;
+    let today = new Date();
+    let actualYear = today.getFullYear();
+    const actorsAndAges = [];
+    for (const actor of actors) {
+        actor.age = actualYear - actor.born;
+        delete actor.born;
+        actorsAndAges.push(actor);
+    }
+    return actorsAndAges;
+} */
+
+console.log(calculateActorsAges(actors));

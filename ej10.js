@@ -32,4 +32,21 @@ function getCapital(country) {
     }
 }
 
-/* console.log(getCapital("Spain")); */
+// ARROW FUNCTIONS:
+/* const getCapital = (country) => {
+    const countries = [];
+    for (const key in capitals) {
+        countries.push(key);
+    }
+    if (countries.includes(country)) {
+        for (const key in capitals) {
+            if (country == key) {
+                return capitals[key];
+            }
+        }
+    } else {
+        return `Lo siento, desconozco la capital de ${country}`;
+    }
+} */
+
+console.log(getCapital("Spain"));
