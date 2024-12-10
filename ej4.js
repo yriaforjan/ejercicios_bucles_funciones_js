@@ -15,10 +15,10 @@ const cartoons = [
 ];
   
 // Añade tu código de bucle aquí
-let oldestCartoon = {};
 
 for (const cartoon of cartoons) {
     cartoons.sort((a,b) => a.debut - b.debut);
 }
+let oldestCartoon = cartoons[0].name;
 
-console.log (cartoons[0]);
+console.log (oldestCartoon);
